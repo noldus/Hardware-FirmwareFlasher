@@ -5,15 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script>
-      // Redirect to HTTPS if HTTP is requested.
-      if (
-        window.location.hostname !== "localhost" &&
-        window.location.protocol === "http:"
-      ) {
-        window.location.href = "https:" + window.location.href.substring(5);
-      }
-    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.js"></script>
     <!-- import the web page's stylesheets along with the themes -->
     <link rel="stylesheet" href="https://use.typekit.net/qtk5kiq.css" />
@@ -37,7 +29,7 @@
   <body>
     <header class="header">
       <div class="left">
-        <img src="1866729.gif" class="Adafruit-Logo">
+        <img src="assets/noldus_logo_full.svg" class="Adafruit-Logo" style="width: 200px;">
       </div>
       <div class="right">
         <select id="baudRate"></select>
